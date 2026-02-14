@@ -7,7 +7,7 @@ A collection of detailed writeups for every CTF challenge I've solved.
 | CTF | Team | Placement |
 |-----|------|-----------|
 | Cátedra Ada Byron UAH (INCIBE) | Grey Company | 5/129 |
-| 0xfun | (For fun) | N/A |
+| 0xfun | N/A(For fun) | N/A |
 
 ## Challenge Writeups
 
