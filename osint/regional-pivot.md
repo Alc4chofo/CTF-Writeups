@@ -1,4 +1,4 @@
-# Regional Pivot (Massive-Equipment393)
+# Regional Pivot 
 
 **CTF:** 0xfun  
 **Category:** OSINT  
