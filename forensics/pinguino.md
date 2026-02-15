@@ -1,0 +1,48 @@
+# pingüino: 🐧
+
+**CTF:** Cátedra Ada Byron UAH (INCIBE)  
+**Category:** Forensics  
+**Difficulty:** 20
+
+## Challenge
+
+You're given `surprise__1_.zip`, a tiny password-protected ZIP archive containing `surprise.txt`. The clue points to the SecLists repository and says to pick one of the smallest "10 million" lists.
+
+## Solution
+
+### Identifying the wordlist
+
+SecLists has a family of password lists under `Passwords/Common-Credentials/` sliced at various sizes from the same 10-million-password dataset. The clue says to pick the smallest, which is `10-million-password-list-top-100.txt` — just 100 entries.
+
+### Cracking the password
+
+With only 100 candidates, a simple Python loop does the job:
+
+```python
+import zipfile
+
+with open('wordlist.txt') as f:
+    passwords = [line.strip() for line in f]
+
+with zipfile.ZipFile('surprise__1_.zip') as zf:
+    for pwd in passwords:
+        try:
+            zf.extractall(pwd=pwd.encode())
+            print(f"Password: {pwd}")
+            print(zf.read('surprise.txt', pwd=pwd.encode()).decode())
+            break
+        except RuntimeError:
+            continue
+```
+
+Password cracked on attempt #16: `letmein`.
+
+### The flag
+
+Extracting `surprise.txt` with the recovered password:
+
+Flag: `FLAG{wuh32dDdsSSDAihsdsi767whhdwo}`
+
+## Takeaway
+
+`letmein` ranks 16th among the most commonly used passwords worldwide — a dictionary attack cracks it in milliseconds with no GPU or specialized tools. Even basic ZIP encryption offers no protection when paired with a password that's in the top 100.
