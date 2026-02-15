@@ -1,4 +1,4 @@
-# Phantom Governor
+# DoItYourself
 
 **CTF:** Cátedra Ada Byron UAH (INCIBE)  
 **Category:** Web3  
