@@ -12,7 +12,7 @@ Track down the flag using the handle "Massive-Equipment393".
 
 ### Recon
 
-Started with a Google dork: `site:reddit.com "Massive-Equipment393"`. This turned up a post in r/CTFlearn titled "Playlist" containing a Base52 string: `49Rak48kGp7nJoUq9ofCX`.
+Started with a Google dork: `site:reddit.com "Massive-Equipment393"`. This turned up a post in r/CTFlearn titled "Playlist" containing a Base58 string: `49Rak48kGp7nJoUq9ofCX`.
 
 The Reddit account linked to a Spotify profile with two playlists worth investigating: "My Playlists" and "My Playlists#3". Both had encrypted data hidden in them.
 
@@ -34,9 +34,9 @@ Taking the first letter of every track name in "My Playlists#3" spelled out:
 3xt3nd_M0R3_TR4X
 ```
 
-**Layer 3 — Base52 (Reddit post):**
+**Layer 3 — Base58 (Reddit post):**
 
-Decoding the Base52 string `49Rak48kGp7nJoUq9ofCX` from the original Reddit post gave the closing brace:
+Decoding the Base58 string `49Rak48kGp7nJoUq9ofCX` from the original Reddit post gave the closing brace:
 
 ```
 }
