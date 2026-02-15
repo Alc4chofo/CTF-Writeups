@@ -46,7 +46,6 @@ A collection of detailed writeups for every CTF challenge I've solved.
 |-----------|-----|------------|---------|
 | yo uso internet explorer | Cátedra Ada Byron UAH (INCIBE) | 350 | [writeup](forensics/yo-uso-internet-explorer.md) |
 | Ethereal | Cátedra Ada Byron UAH (INCIBE) | 150 | [writeup](forensics/ethereal.md) |
-| JPGN't | Cátedra Ada Byron UAH (INCIBE) | 75 | [writeup](forensics/jpgnt.md) |
 | 2021 pendrive | Cátedra Ada Byron UAH (INCIBE) | 70 | [writeup](forensics/2021-pendrive.md) |
 | pingüino: 🐧 | Cátedra Ada Byron UAH (INCIBE) | 20 | [writeup](forensics/pinguino.md) |
 | ¿PDF? | Cátedra Ada Byron UAH (INCIBE) | 20 | [writeup](forensics/pdf.md) |
