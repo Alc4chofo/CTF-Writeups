@@ -65,6 +65,11 @@ A collection of detailed writeups for every CTF challenge I've solved.
 |-----------|-----|------------|---------|
 | Regional Pivot (Massive-Equipment393) | 0xfun | easy(100) | [writeup](osint/regional-pivot.md) |
 
+
+## AI Use
+
+AI has been used for translation and grammatical correction in most of these writeups, seeking precision and clarity. All AI-assisted content has been carefully reviewed to guarantee the integrity and accuracy of the writeups. That said, if you spot any errors, please don't hesitate to report them.
+
 ## License
 
 MIT License
