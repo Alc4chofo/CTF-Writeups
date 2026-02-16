@@ -68,7 +68,7 @@ A collection of detailed writeups for every CTF challenge I've solved.
 
 ## AI Use
 
-AI has been used for translation and grammatical correction in most of these writeups, seeking precision and clarity. All AI-assisted content has been carefully reviewed to guarantee the integrity and accuracy of the writeups. That said, if you spot any errors, please don't hesitate to report them.
+AI has been used for translation and grammatical correction in most of these writeups, seeking precision and clarity. All AI-assisted content has been carefully reviewed to guarantee the integrity and accuracy of the writeups. That said, if you spot any errors, please don't hesitate to report them.  
 The model used was Opus 4.6 (by Anthropic)
 
 ## License
