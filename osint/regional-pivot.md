@@ -25,26 +25,25 @@ The playlist description contained a Base64 string: `MHhmdW57c3AwdDFmeV9wbDR5bDF
 ```
 0xfun{sp0t1fy_pl4yl1st_
 ```
+**Layer 2 — Base58 (Reddit post):**
 
-**Layer 2 — Acrostic cipher (My Playlists#3 tracklist):**
+Decoding the Base58 string `49Rak48kGp7nJoUq9ofCX` from the original Reddit post gave the next step:
+
+```
+pl4yl1st_3xt3nd
+```
+
+**Layer 3 — Acrostic cipher (My Playlists#3 tracklist):**
 
 Taking the first letter of every track name in "My Playlists#3" spelled out:
 
 ```
-3xt3nd_M0R3_TR4X
-```
-
-**Layer 3 — Base58 (Reddit post):**
-
-Decoding the Base58 string `49Rak48kGp7nJoUq9ofCX` from the original Reddit post gave the closing brace:
-
-```
-}
+3xt3nd_M0R3_TR4X}
 ```
 
 ### Flag
 
-Combining all three layers:
+Combining all three layers (with the logical order, as it gives the previous part, like on the first part it says sp0t1fy_pl4yl1st_, and in the second pl4yl1st_3xt3nd, so logically we know it's the continuation):
 
 ```
 0xfun{sp0t1fy_pl4yl1st_3xt3nd_M0R3_TR4X}
